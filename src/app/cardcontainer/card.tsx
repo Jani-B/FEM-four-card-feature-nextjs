@@ -11,8 +11,10 @@ export default function Card() {
             key={card.id}
             className={`${styles[card.id]} ${styles.allCards}`}
           >
-            <h3 className={styles.header}>{card.cardHeader}</h3>
-            <p>{card.cardText}</p>
+            <h3 className={`${styles.header} ${styles.poppinsSemibold}`}>
+              {card.cardHeader}
+            </h3>
+            <p className={styles.poppinsRegular}>{card.cardText}</p>
             <Image
               className={styles.smallImages}
               src={card.picture}
