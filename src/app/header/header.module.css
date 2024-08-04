@@ -30,4 +30,21 @@
 
 .h1 {
   font-size: 1.5rem;
+  color: var(--Grayish-Blue);
+}
+
+.h2 {
+  color: var(--Very-Dark-Blue);
+}
+
+@media only screen and (min-width: 800px) {
+  .headersContainer {
+    padding: 0 50px;
+    margin-bottom: 5%;
+  }
+
+  .headers {
+    width: 60%;
+    margin: auto;
+  }
 }

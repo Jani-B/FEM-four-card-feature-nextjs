@@ -8,10 +8,10 @@ export default function Header() {
       >
         Reliable, efficient delivery
       </h1>
-      <h2 className={`${styles.poppinsSemibold} ${styles.headers}`}>
+      <h2 className={`${styles.poppinsSemibold} ${styles.headers} ${styles.h2}`}>
         Powered by Technology
       </h2>
-      <p className={`${styles.poppinsExtralight} ${styles.headers}`}>
+      <p className={`${styles.poppinsExtralight} ${styles.headers} ${styles.p}`}>
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
