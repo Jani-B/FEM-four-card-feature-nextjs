@@ -1,7 +1,11 @@
+import { CardInfo } from "../cardinfo";
+import Card from "../cardcontainer/card";
+import styles from "./main.module.css";
+
 export default function Main() {
   return (
-    <main>
-      <h2>Here comes the cards</h2>
+    <main className={styles.mainContainer}>
+      <Card />
     </main>
   );
 }

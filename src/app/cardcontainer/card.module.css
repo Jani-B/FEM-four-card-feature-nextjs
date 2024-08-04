@@ -1,0 +1,18 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: 2px;
+}
+
+.allCards {
+  padding: 1rem;
+  grid-column: 1fr;
+  grid-row: 1fr;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card1 {
+  background-color: green;
+}

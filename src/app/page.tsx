@@ -6,10 +6,10 @@ import Main from "./main/main";
 export default function Home() {
   return (
     <>
-    <div className={styles.container}>
-      <Header />
-      <Main />
-    </div>
+      <div className={styles.container}>
+        <Header />
+        <Main />
+      </div>
     </>
   );
 }
